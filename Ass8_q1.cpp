@@ -46,7 +46,7 @@ int main(){
             outfile << arrW[j][0] << "," <<  arrW[j][1] << "," << arrW[j][2] << endl;
         }
         //output final value of x, y and r after each RW of N steps
-        outfile1 << i+1 << "," << x << "," << y << "," << r << endl;
+        outfile1 << i+1 << "," << x << "," << y << "," << r << "," << pow(r,2) << endl;
     }
     outfile.close();
     outfile1.close();
