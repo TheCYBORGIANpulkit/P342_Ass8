@@ -43,9 +43,8 @@ int main(){
             arrW[j][1] = y;
             arrW[j][2] = r;
             //output all the values of x,y and r after each step in a RW
-            outfile << arrW[i][0] << "," <<  arrW[i][1] << "," << arrW[i][2] << endl;
+            outfile << arrW[j][0] << "," <<  arrW[j][1] << "," << arrW[j][2] << endl;
         }
-        cout << i+1 << "," << x << "," << y << "," << r << endl;
         //output final value of x, y and r after each RW of N steps
         outfile1 << i+1 << "," << x << "," << y << "," << r << endl;
     }
